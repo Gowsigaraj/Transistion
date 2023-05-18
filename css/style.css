@@ -1,0 +1,157 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans', sans-serif;
+}
+.main_container{
+	width:100%
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+h3{
+	color:#8a8a88;
+	font-size:20px;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+h1
+{
+	font-size:30px;
+	font-weight:bold;
+	padding-bottom:30px;
+}
+i{
+	color:#d22c32;
+}
+.section{
+	text-align:center;
+}
+.image{
+	width:100%;
+}
+.card_container{
+	width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:50px 30px;
+	
+}
+.card{
+	display:flex;
+	gap:10px 20px;
+	position:relative;
+	height:204px;
+	width:500px;
+	padding:20px;
+  border: 1px solid #F2F2F2;
+	
+
+}
+
+.image{
+	padding:10px;
+}
+
+.icon{
+	height:80px;
+	width:80px;
+	background-color:#E42032;
+	border-radius:50%;
+	position:absolute;
+	top:72px;
+	line-height:80px;
+	right:257px;
+	font-size:40px;
+	text-align:center;
+	color:white;
+	border: 12px solid #FFF;
+}
+.icon i{
+	color:white;
+}
+
+.btn_section{
+	left: 259px;
+    position: absolute;
+    top: 231px;
+}
+.text_section{
+	margin-top:48px;
+}
+h2{
+	margin-bottom:20px;
+}
+p{
+	line-height:20px;
+	color:#6A6C71;
+}
+
+
+.btn_section{
+	
+}
+.card:hover{
+	background-color: #F7F7F7;
+    border: 1px solid white;}
+
+.card:hover .button{ 
+	color:white;
+ } 
+ .card:hover .button::after{
+	 width:100%;
+ }
+.button{
+	text-decoration:none;
+	display:inline-block;
+	padding:12px 14px;
+	border:2px solid #F2F2F2;;
+	font-size:18px;
+	color:black;
+	font-weight:bold;
+	position:relative;
+	transition:all 1s ease;
+	z-index:1;
+	background:white;
+	
+}
+.button::after{
+	content:"";
+	width:0;
+	height:100%;
+	color:red;
+	background-color:red;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+	transition:all 1s ease;
+}
+
+.footer p {
+    width: 300px;
+    color: #B9B9B9;
+    padding: 14px 10px;
+    text-align: center;
+    border: 1px solid #B9B9B9;
+    margin: 40px auto 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #E42032;
+    font-weight: 500;
+	margin:20px;
+}
+
+
+h3::before {
+    content: "\f560";
+    font-family: FontAwesome;
+    color: #E42032;
+}
+
